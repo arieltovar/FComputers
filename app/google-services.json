@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "621697153974",
+    "project_id": "fcomputers-fdcea",
+    "storage_bucket": "fcomputers-fdcea.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621697153974:android:841501a19127bfcf85df17",
+        "android_client_info": {
+          "package_name": "com.example.fcomputers"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBirSzh4sMnz4OM9X-8zu2dwB8uK5eJgVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
