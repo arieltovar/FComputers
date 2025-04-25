@@ -13,6 +13,13 @@
         android:theme="@style/Theme.FComputers"
         tools:targetApi="31">
         <activity
+            android:name=".CreateActivity"
+            android:exported="false"
+            android:theme="@style/Theme.FComputers" />
+        <activity
+            android:name=".BaseActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
