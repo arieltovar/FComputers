@@ -60,12 +60,15 @@ public class BaseActivity extends AppCompatActivity {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setMessage(message);
         builder.setTitle(title);
+        /*
         builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 dialog.dismiss();
             }
         });
+         */
+        builder.setPositiveButton("Ok", (dialog, which) -> { dialog.dismiss();});
         AlertDialog dialog = builder.create();
         dialog.show();
     }
@@ -77,7 +80,7 @@ public class BaseActivity extends AppCompatActivity {
     }
 
     protected void goToCreate(){
-        Intent intent = new Intent(this, BaseActivity.class);
+        Intent intent = new Intent(this, CreateActivity.class);
         startActivity(intent);
     }
 
